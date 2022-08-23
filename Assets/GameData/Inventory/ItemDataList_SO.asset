@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55a0bc22f8e5ad3409f061d9289edf6e, type: 3}
+  m_Name: ItemDataList_SO
+  m_EditorClassIdentifier: 
+  itemDetailsList:
+  - itemID: 1000
+    itemName: Reap
+    itemType: 6
+    itemIcon: {fileID: 21300000, guid: 559c82c4480ce7d4aa7af02ec888842d, type: 3}
+    ItemOnWorldSprite: {fileID: 21300000, guid: 559c82c4480ce7d4aa7af02ec888842d, type: 3}
+    itemDescription: 'Using plow to reap crop
+
+      You can harvest your crop as
+      it matures or dead'
+    itemUseRadius: 1
+    canPickedup: 1
+    canDropped: 0
+    canCarried: 0
+    itemPrice: 0
+    sellPercentage: 0
+  - itemID: 1001
+    itemName: Soybean
+    itemType: 0
+    itemIcon: {fileID: 21300000, guid: eac764e7b644e4f4f88b54a8ea6a7e81, type: 3}
+    ItemOnWorldSprite: {fileID: 21300000, guid: eac764e7b644e4f4f88b54a8ea6a7e81, type: 3}
+    itemDescription: 'Soybean Seed
+
+      Growing soybeans increases land fertility'
+    itemUseRadius: 1
+    canPickedup: 1
+    canDropped: 0
+    canCarried: 0
+    itemPrice: 15
+    sellPercentage: 1
+  - itemID: 1002
+    itemName: Wheat
+    itemType: 0
+    itemIcon: {fileID: 21300000, guid: 4b2ca8346db415348b50786621e32894, type: 3}
+    ItemOnWorldSprite: {fileID: 21300000, guid: 4b2ca8346db415348b50786621e32894, type: 3}
+    itemDescription: 'Wheat Seed
+
+      Growing wheat to protect against pests and
+      diseases'
+    itemUseRadius: 1
+    canPickedup: 1
+    canDropped: 0
+    canCarried: 0
+    itemPrice: 15
+    sellPercentage: 1
+  - itemID: 1003
+    itemName: Corn
+    itemType: 0
+    itemIcon: {fileID: 21300000, guid: 72ca2523cceed064880c4c3d9b67f06f, type: 3}
+    ItemOnWorldSprite: {fileID: 21300000, guid: 72ca2523cceed064880c4c3d9b67f06f, type: 3}
+    itemDescription: 'Corn Seed
+
+      Growing maize provides the highest returns,
+      but can affect fertility and health'
+    itemUseRadius: 1
+    canPickedup: 1
+    canDropped: 0
+    canCarried: 0
+    itemPrice: 25
+    sellPercentage: 1
+  - itemID: 1004
+    itemName: Fertilizer
+    itemType: 1
+    itemIcon: {fileID: 21300000, guid: ac6ec078cfa433642901d81db779b05f, type: 3}
+    ItemOnWorldSprite: {fileID: 21300000, guid: ac6ec078cfa433642901d81db779b05f, type: 3}
+    itemDescription: 'Increasing fertility
+
+      Fertility level will affects yield'
+    itemUseRadius: 1
+    canPickedup: 1
+    canDropped: 0
+    canCarried: 0
+    itemPrice: 50
+    sellPercentage: 1
+  - itemID: 1005
+    itemName: Insecticide
+    itemType: 1
+    itemIcon: {fileID: 21300000, guid: fb88c22344caabc42a11d1d940e3380b, type: 3}
+    ItemOnWorldSprite: {fileID: 21300000, guid: fb88c22344caabc42a11d1d940e3380b, type: 3}
+    itemDescription: 'Prevention of pests and diseases
+
+      Health Level will affects
+      yield'
+    itemUseRadius: 1
+    canPickedup: 1
+    canDropped: 0
+    canCarried: 0
+    itemPrice: 50
+    sellPercentage: 1
+  - itemID: 1006
+    itemName: Soybean
+    itemType: 1
+    itemIcon: {fileID: 21300000, guid: 3419c82d5a4da4b4bb501a862033ccc6, type: 3}
+    ItemOnWorldSprite: {fileID: 21300000, guid: 3419c82d5a4da4b4bb501a862033ccc6, type: 3}
+    itemDescription: Soybean
+    itemUseRadius: 1
+    canPickedup: 0
+    canDropped: 0
+    canCarried: 0
+    itemPrice: 4
+    sellPercentage: 1
+  - itemID: 1007
+    itemName: Wheat
+    itemType: 1
+    itemIcon: {fileID: 21300000, guid: 2ed25184fa602794eada5aaafdaa7b89, type: 3}
+    ItemOnWorldSprite: {fileID: 21300000, guid: 2ed25184fa602794eada5aaafdaa7b89, type: 3}
+    itemDescription: Wheat
+    itemUseRadius: 1
+    canPickedup: 0
+    canDropped: 0
+    canCarried: 0
+    itemPrice: 4
+    sellPercentage: 1
+  - itemID: 1008
+    itemName: Corn
+    itemType: 1
+    itemIcon: {fileID: 21300000, guid: e6f61fa3d5bfa2644979d89d29956107, type: 3}
+    ItemOnWorldSprite: {fileID: 21300000, guid: e6f61fa3d5bfa2644979d89d29956107, type: 3}
+    itemDescription: Corn
+    itemUseRadius: 1
+    canPickedup: 0
+    canDropped: 0
+    canCarried: 0
+    itemPrice: 6
+    sellPercentage: 1
+  - itemID: 1009
+    itemName: Hoe
+    itemType: 3
+    itemIcon: {fileID: 21300000, guid: f5c2c0256ff1a2c4fb1db02ed7a2c00b, type: 3}
+    ItemOnWorldSprite: {fileID: 21300000, guid: f5c2c0256ff1a2c4fb1db02ed7a2c00b, type: 3}
+    itemDescription: 'Using how to plant crop.
+
+      You can move to the middle
+      of the Field and plant crop.'
+    itemUseRadius: 1
+    canPickedup: 1
+    canDropped: 0
+    canCarried: 0
+    itemPrice: 0
+    sellPercentage: 0
